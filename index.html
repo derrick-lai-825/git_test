@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title> Links And Images </title>
+    </head>
+
+    <!-- Index -->
+    <body>
+        <h1> Homepage </h1>
+        <a href="https://www.theodinproject.com/about"> Click Me! </a>
+        <br> <!-- Line Break -->
+
+         <!-- pages/about.html usually works. But unexpectedly, it may fail. In order to solve this issue, let's reference the directory that is
+            RELATIVE to the directory of this current html code. We can do this be using './', which means the file you are referencing is relative to the parent
+            of this file.
+        -->
+        <a href="./pages/about.html"> About </a>
+
+        <p> Here is an image. </p>
+        <img src="https://www.theodinproject.com/mstile-310x310.png">
+
+        <h3> Here is an image of a dog. </h3>
+        <!-- Using alt, we can provide a text description of the image just in case it doesn't load. -->
+        <img src="./images/dog.jpg" alt="A picture of a dog.">
+    </body>
+
+</html>
